@@ -1,0 +1,28 @@
+<html>
+<head>
+
+
+</head>
+<body>
+    <center>
+        <br>
+<p>birds</p>
+<img src="bird.png" alt="bird image"width="400"<br>
+<audio src="bird.mp3" id="audio"width="400"></audio><br>
+<script>
+     function MyPlay(){
+                document.getElementById("audio").play();
+            }
+
+            function MyStop(){
+                document.getElementById("audio").pause();
+                document.getElementById("audio").currentTime=0;
+            }
+        </script>
+        <br>
+        <button onclick="MyPlay()">Play</button>
+        <button onclick="MyStop()">Stop</button>
+   
+    </center>
+</body>
+</html>
